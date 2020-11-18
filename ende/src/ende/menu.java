@@ -11,7 +11,8 @@ public class menu {
         "1-sumar"
                 + "2-restar"
                 + "3-multiplicacion"
-                + "4-dividir");
+                + "4-dividir"
+                + "5-factorial");
        
         usu=Integer.parseInt(sc.nextLine());
        
@@ -42,7 +43,7 @@ public class menu {
    
     public static void division () {System.out.println("2/1=2");}
    
-    public static void factorial () {System.out.println("Introduce un numero y lo pasará a factorial");
+    public static void factorial () {System.out.println("Introduce un numero y lo pasará a factorial HECHOOOOOOOOOOOOOOOOO");
     Scanner sc=new Scanner(System.in);
     int i,num;
     num=0;

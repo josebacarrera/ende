@@ -6,8 +6,9 @@ public class menu {
         // TODO Auto-generated method stub
         Scanner sc=new Scanner(System.in);
         int usu;
+       
         System.out.println(
-        		"1-sumar"
+        "1-sumar"
                 + "2-restar"
                 + "3-multiplicacion"
                 + "4-dividir");
@@ -16,18 +17,39 @@ public class menu {
        
         switch(usu){
         case 1:
-                System.out.print("1+1=2");
+                suma();
             break;
         case 2:
-        	 System.out.print("2-1=1");
+                resta();
             break;
-        case 3: System.out.print("2*1=2");
+        case 3:
+                multiplicacion();
             break;
         case 4:
-        	 System.out.print("2/1=2674848");
+                division();
+            break;
+        case 5:
+            factorial();
+            break;
        
-}
-        
- }
-    
+        }
+    }
+    public static void suma () {System.out.println("1+1=2");}
+   
+    public static void resta () {System.out.println("1-1=0");}
+   
+    public static void multiplicacion () {System.out.println("2*1=2");}
+   
+    public static void division () {System.out.println("2/1=2");}
+   
+    public static void factorial () {System.out.println("Introduce un numero y lo pasará a factorial");
+    Scanner sc=new Scanner(System.in);
+    int i,num;
+    num=0;
+    int fac=1;
+    num=sc.nextInt();
+    for (i=0;i<num;i++) {
+    fac=fac*i;
+    }
+    }
 }

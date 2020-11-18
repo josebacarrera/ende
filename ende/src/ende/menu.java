@@ -24,7 +24,7 @@ public class menu {
         case 3: System.out.print("2*1=2");
             break;
         case 4:
-        	 System.out.print("2/1=2");
+        	 System.out.print("2/1=2674848");
        
 }
         
